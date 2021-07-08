@@ -10,13 +10,13 @@ function Display(props){
             <div class="card">
             <div class="row no-gutters">
                 <div class="col-6 imageCol">
-                    <img src={props.image}></img>
+                    <img src={props.image} className="mainimg"></img>
                 </div>
                 <div class="col-6">
                 <div class="card-body">
                     <h4>{props.name}</h4>
                     <p>{props.address}</p>
-                    <a href="rental.html" class="btn btn1" role="button">Contact Owner</a>
+                    <a href="rental.html" class="btn btn1" role="button">View More Details</a>
                     <a href="#" class="btn btn1 btn2" role="button">Add to Whislist</a>
                 </div>
                 </div>
@@ -25,6 +25,9 @@ function Display(props){
         </div>
     );
 }
+
+
+
 
 // Navbar
 function NavBar(){
@@ -68,6 +71,7 @@ ReactDOM.render(
     details.map(createDetail)
     ,document.getElementById("cardDetails")
 );
+
 
 ReactDOM.render(
     <NavBar></NavBar>

@@ -23,13 +23,26 @@
     <title>MY HOME SERVICES</title>
 </head>
 
-<body>
-      <div id="root"></div>
-      <script src="./src/index.js" type="text/ejx"></script>
-
+<body id="rental1">
+      
       <!-- Navbar -->
-      <div id="navBar"></div>
-    
+      <!-- <div id="navBar"></div> -->
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Post my advertisement </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Login</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Sign Up</a>
+            </li>
+            </ul>
+        </div>
+    </nav>
     <div class="container" style="margin-top: 80px;">
         <div class="row">
 
@@ -113,29 +126,46 @@
                 </tbody>
               </table>
 
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter"style="width:50%" >
+              <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#exampleModalCenter"style="width:50%" >
                 View More Pictures
             </button>
 
               <!-- Contact Owner -->
-              <button type="button" class="btn btn-primary" style="width:49%">
+              <button type="button" class="btn btn-outline-dark" style="width:49%">
                 Add to Wishlist
               </button>
 
-              <button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#exampleModal" style="margin-top: 5px;" >Contact Owner</button>
+              <button type="button" class="btn btn-block btn-outline-dark" data-toggle="modal" data-target="#exampleModal" style="margin-top: 5px;" >Contact Owner</button>
               <!-- Modal- Owner details -->
               <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog">
                 <div class="modal-dialog" role="document">
                   <div class="modal-content">
-                    <div class="modal-header">
-                      <h2>Property Details</h2>
-                    </div>
                     <div class="modal-body">
-                      <h3>Mallikarjun Appartments</h3>
-                      <p>H.No:80,Hyder Nager, Hyderabad</p>
-                      <h3>Mallikarjun</h3>
-                      <p>8134326781</p>
-                      <p>malikarjun@gmail.com</p>
+                      <h2>Property Details</h2>
+                      <table class="table">
+                        <tbody>
+                          <tr>
+                            <td>House Name</td>
+                            <td>Mallikarjun Appartments</td>
+                          </tr>
+                          <tr>
+                            <td>Address</td>
+                            <td>H.No:80,Hyder Nager, Hyderabad</td>
+                          </tr>
+                          <tr>
+                            <td>Owner Name</td>
+                            <td>Mallikarjun</td>
+                          </tr>
+                          <tr>
+                            <td>Contact Number</td>
+                            <td>8134326781</td>
+                          </tr>
+                          <tr>
+                            <td>E-Mail</td>
+                            <td>malikarjun@gmail.com</td>
+                          </tr>
+                        </tbody>
+                      </table>
                     </div>
                   </div>
                 </div>
@@ -226,7 +256,10 @@
 
 
 
-    <div id="footer"></div>
+    <!-- <div id="footer"></div> -->
+    <footer>
+      <p>Copyright ⓒ 2021</p>
+    </footer>
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
