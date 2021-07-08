@@ -1,0 +1,71 @@
+nav{
+    background-color: #171717;
+}
+
+
+.r1{
+    margin-top: 40px;
+}
+
+
+
+.img1{
+    text-align: center;
+}
+
+.card{
+    background-color: #F9F9F9;;
+    margin-bottom: 15px;
+}
+
+.top-right {
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.center2{
+    position: absolute;
+    padding-top: 100px;
+    padding-left: 300px;
+}
+
+.center1{
+    height:500px;
+    width:auto;
+    background-image: linear-gradient(#F6C6EA,#CDF0EA );
+    position:relative;
+}
+
+#PricingRange{
+    width:300px;
+    margin-left: 10px;
+}
+
+.input1{
+    height:40px;
+    width:600px;
+    border-radius: 2px;
+}
+
+.btn1{
+  border: 1px solid black;
+  margin-bottom: 5px;
+  /* margin-left: 20px; */
+  color:black;
+}
+
+.btn2{
+    margin-left: 5px;
+}
+
+footer{
+    background-color: #171717;
+    color:white;
+    text-align: center;
+    height:30px;
+}
+
+
+.mainimg{
+    width:100%;
+}
